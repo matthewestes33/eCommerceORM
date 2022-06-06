@@ -6,7 +6,7 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // unique ID
+    // unique ID for each new product tag
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,

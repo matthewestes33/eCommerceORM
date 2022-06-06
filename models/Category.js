@@ -6,7 +6,7 @@ class Category extends Model {}
 
 Category.init(
   {
-    // unique ID
+    // unique ID for each new category
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,

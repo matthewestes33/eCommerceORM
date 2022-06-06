@@ -6,7 +6,7 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    // unique ID
+    // unique ID for each new tag
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
