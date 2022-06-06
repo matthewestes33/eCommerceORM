@@ -20,7 +20,9 @@ All elements of the project can be examined here: https://github.com/mattheweste
 
 Referenced documentation and tutorials:
 
+Associations | Sequelize: https://sequelize.org/docs/v6/core-concepts/assocs/
 
+Note about allowNull implementation | Sequelize: https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/#note-about-allownull-implementation 
 
 Additional assistance:
 
