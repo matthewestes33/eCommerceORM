@@ -6,13 +6,14 @@ class Category extends Model {}
 
 Category.init(
   {
-    // define columns
+    // unique ID
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
+    // categoryData from category-seeds.js
     category_name: {
       type: DataTypes.STRING,
       allowNull: false

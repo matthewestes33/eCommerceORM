@@ -6,13 +6,15 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // define columns
+    // unique ID
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
+    // Products belongToMany Tags (through ProductTag)
+    // productTagData from product-tag-seeds.js
     product_id: {
       type: DataTypes.INTEGER,
       references: {
@@ -20,6 +22,8 @@ ProductTag.init(
         key: 'id'
       }
     },
+    // Tags belongToMany Products (through ProductTag)
+    // productTagData from product-tag-seeds.js
     tag_id: {
       type: DataTypes.INTEGER,
       references: {

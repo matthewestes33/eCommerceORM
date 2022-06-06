@@ -9,17 +9,19 @@ class Product extends Model { }
 // set up fields and rules for Product model
 Product.init(
   {
-    // define columns
+    // unique ID
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
+    // productData from product-seeds.js
     product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
+    // productData from product-seeds.js
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
@@ -27,6 +29,7 @@ Product.init(
         isDecimal: true
       }
     },
+    // productData from product-seeds.js
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -35,6 +38,8 @@ Product.init(
         isNumeric: true
       }
     },
+    // Products belongsTo Category
+    // productData from product-seeds.js
     category_id: {
       type: DataTypes.INTEGER,
       references: {

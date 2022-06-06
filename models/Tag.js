@@ -6,13 +6,14 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    // define columns
+    // unique ID
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
+    // tagData from tag-seeds.js
     tag_name: {
       type: DataTypes.STRING,
       allowNull: false,
