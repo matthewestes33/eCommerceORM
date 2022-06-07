@@ -6,13 +6,17 @@ This application creates the back end for an e-commerce website that uses the la
 
 ## Mock-up
 
-![IMAGE.](./images/IMAGE.jpg)
+![Insomnia screenshot.](./images/insomnia.jpg)
 
 ## Installation
 
 This application requires installation of npm (incl. nodemon, dotenv, express, mysql2, sequelize), MySQL, and Insomnia. 
 
-A walkthrough video can be viewed here: GOOGLE DRIVE LINK
+A walkthrough video can be viewed here: 
+
+Part 1: https://drive.google.com/file/d/1dgeEctAwvZIyMaRlEDfm3I6jnO8kIaOX/view
+
+Part 2: https://drive.google.com/file/d/1U5CBtahqoB07OoFnTlGq777D9JB90rwe/view
 
 All elements of the project can be examined here: https://github.com/matthewestes33/eCommerceORM 
 
