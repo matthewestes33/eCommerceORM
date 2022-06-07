@@ -10,7 +10,7 @@ This application creates the back end for an e-commerce website that uses the la
 
 ## Installation
 
-This application requires installation of .... 
+This application requires installation of npm (incl. nodemon, dotenv, express, mysql2, sequelize), MySQL, and Insomnia. 
 
 A walkthrough video can be viewed here: GOOGLE DRIVE LINK
 
@@ -24,9 +24,11 @@ Associations | Sequelize: https://sequelize.org/docs/v6/core-concepts/assocs/
 
 Note about allowNull implementation | Sequelize: https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/#note-about-allownull-implementation 
 
+Use Insomnia for API Requests: https://apis.support.brightcove.com/general/use-insomnia-api-requests.html
+
 Additional assistance:
 
-Thank you to my instructional staff, weekly tutor, and AskBCS Learning Assistants!
+Thank you to my instructional staff and AskBCS Learning Assistants!
 
 ## Features
 
